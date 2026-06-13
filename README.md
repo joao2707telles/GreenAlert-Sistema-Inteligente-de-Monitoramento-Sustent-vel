@@ -37,7 +37,7 @@ A solução desenvolvida utiliza sensores para coletar dados em tempo real. Essa
 ### Componentes Utilizados
 
 * Arduino Uno
-* Sensor(es) utilizado(s)
+* Potenciômetro
 * LEDs indicadores
 * Resistores
 * Protoboard
@@ -61,7 +61,7 @@ A utilização do Arduino foi escolhida devido ao baixo consumo energético, fac
 
 ## Funcionalidade Demonstrada
 
-O protótipo demonstra a coleta e o processamento de dados em tempo real, acionando alertas visuais quando determinadas condições são atendidas.
+O protótipo demonstra a leitura de valores por meio de um potenciômetro, o processamento desses dados pelo Arduino e a indicação visual por LEDs de diferentes cores de acordo com a condição monitorada.
 
 ## Dados Gerados pelo Sistema
 
@@ -70,7 +70,7 @@ O protótipo demonstra a coleta e o processamento de dados em tempo real, aciona
 | Teste | Valor do Sensor | Resultado      |
 | ----- | --------------- | -------------- |
 | 1     | 20              | LED Verde      |
-| 2     | 50              | LED Amarelo    |
+| 2     | 50              | LED Azul       |
 | 3     | 80              | LED Vermelho   |
 | 4     | 90              | Alerta Ativado |
 
